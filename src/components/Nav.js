@@ -122,7 +122,7 @@ const NavBar = () => {
             <li className='nav-item'>
               <a
                 href={Elena_Gospodinova}
-                className='nav-link'
+                className='nav-link resume'
                 download
               >
                 <BsFillPersonLinesFill />

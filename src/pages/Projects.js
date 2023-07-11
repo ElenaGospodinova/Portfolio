@@ -16,6 +16,7 @@ import Energy_gym from '../img/Energy_gym.png';
 import EPAPE_ltd from '../img/EPAPE_ltd.png';
 import Travel_App from '../img/Travel_App.png';
 import LogIn_And_Out from '../img/LogIn_And_Out.png';
+import Blog from '../img/Travel_blog.png';
 
 export default function Projects(props) {
   const [hoveredIndex, setHoveredIndex] = useState(null);
@@ -65,8 +66,14 @@ export default function Projects(props) {
       text: 'Construction company website. Presenting new way of corporate web design, development, and digital marketing.',
       tools:[<FaHtml5/>, <FaCss3/>,<FaBootstrap/>, <FaJs/>],
     },
-  ];
-
+    {
+      title: 'Coming Soon - Travel Blog',
+      photo: Blog,
+      githubLink: 'https://github.com/ElenaGospodinova/Let-s-Travel',
+      websiteLink: 'https://your-travel-guide-asia.netlify.app//',
+      
+    }
+  ]
   return (
     <>
       <h3 className='projects'>My Projects</h3>
@@ -102,7 +109,6 @@ export default function Projects(props) {
                 <a href={project.websiteLink} className='btn button-p' target="_blank" rel="noopener noreferrer">
                     <FontAwesomeIcon icon={faGlobeAsia} size='2x' style={{ width: '170px' }} />
                 </a>
-
               </div>
             </div>
           </Grid>

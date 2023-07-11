@@ -28,8 +28,11 @@
 .nav-link:hover {
   color: #eaeae2;
   font-size: 23px;
+  
 }
-
+.resume:hover::after {
+    content: '  Resume';
+}
 .navbar-toggler,
 .collapsed {
   color: #d1ea29;
