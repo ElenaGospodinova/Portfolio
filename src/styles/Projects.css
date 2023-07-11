@@ -1,0 +1,127 @@
+ .projects {
+  margin-top: 230px;
+  padding: 130px;
+}
+
+.box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 100px;
+  text-align: center;
+}
+
+.box p {
+  margin-bottom: 10px;
+}
+
+.cards-grid-container {
+  position: absolute;
+  margin-top: 14vw;
+  margin-left: 17vw;
+  font-size: 2rem;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 10px;
+  cursor: pointer;
+  color: rgb(243, 243, 238);
+  
+}
+
+.projects_photos {
+  border-radius: 32px;
+  width: 15vw;
+  border: 2px solid #cef850;
+  padding: 12px;
+  flex: 1 0 200px;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.button-p,
+.button-p2, .more{
+  border-radius: 50px;
+  border: none;
+  background-color: #cef850;
+  width: 4vw;
+  height: 2vw;
+  padding: -3px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 45px 10px;
+  opacity: 1; /* Set the initial opacity to 1 */
+   transition: transform 0.3s, opacity 0.3s ease-in-out; /*Add transition effect */
+ }
+
+.box:hover .button-p,
+.box:hover .button-p2 {
+  transform: scale(1.2);
+  background-color: rgb(54, 58, 87);
+  color: white;
+  border: 3px solid #cef850;
+  margin: 4px 30px;
+  
+}
+
+.button-p {
+  margin-left: 20px;
+} 
+
+
+.video-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 77%;
+  height: 77%;
+  margin-left: 120px;
+  object-fit: cover;
+  border: 2px solid #cef850;
+  border-radius: 12%;
+  opacity: 1;
+}
+
+.video-wrapper {
+  position: relative;
+  width: 100%;
+  padding-top: 50%; /*16:9 aspect ratio */
+  overflow: hidden;
+}
+
+.video-wrapper video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  
+}
+.more{
+  background-color: #cef850;
+  color: rgb(54, 58, 87);
+  border-radius: 12px;
+  border: none;
+ 
+
+}
+.more:hover{
+  background-color: rgb(54, 58, 87);
+  color: white;
+  border: 3px solid #cef850;
+}
+.project-description{
+  margin-top: 170px;
+}  
+
+
+
+
+
+
