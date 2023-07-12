@@ -40,7 +40,6 @@
     "react-scroll": "^1.8.9",
     "react-toggle": "^4.1.3",
     "social-media-links": "^1.0.2",
-    "use-dark-mode": "^2.3.2",
     "use-persisted-state": "^0.3.3",
     "web-vitals": "^2.1.4"
   },
