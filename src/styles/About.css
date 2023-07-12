@@ -1,5 +1,5 @@
 .about {
-  margin-top: 33vw;
+  margin-top: 20vw;
   padding: 3em;
   width: 100%;
   box-shadow: 16.6px 23.1px 13.1px rgba(42, 45, 33, 0.3);
@@ -99,10 +99,13 @@
   .about {
     padding: 33px;
     width: 23em;
-    margin-top: 14em;
-    margin-left: 4em;
+    margin-top: 15em;
+    margin-left: 6em;
   }
-
+  .bio{
+    margin-left: 1em;
+    padding: 1em;
+  }
   .about-text,
   .prg {
     font-size: 1em;

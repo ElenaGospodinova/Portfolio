@@ -23,6 +23,7 @@ export default function Home() {
       <div className="hero-content" >
        <img src={Shape} alt='Geometrical lines' className='top-img' data-aos="zoom-in"/>  
         <h2 className="one">Hi, I`m Elena Gospodinova</h2>
+        
         <h3 className="two">Front-end Developer</h3>
 
       </div>

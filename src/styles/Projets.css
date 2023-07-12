@@ -6,7 +6,7 @@
 .card {
     position: relative;
     overflow: hidden;
-    margin-top: 200px;
+    margin-top: 220px;
     margin-right: 3px;
     margin-left: 6px;
     background: url('../img/pngegg.png')no-repeat center; 
@@ -88,8 +88,8 @@
   }
   @media (max-width: 576px) and (min-width: 374px) {
     .projects{
-      margin: 1em 1em -1em -3em;
-      font-size: 2em;
+      margin: 14em 2em -1em -3em;
+      font-size: 1.5em;
     }
     .card{
       margin-top: 2em;

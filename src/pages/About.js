@@ -38,6 +38,7 @@ function About() {
       <Row>
         <Col className="skills" data-aos="zoom-in-right">
           <h3 className='bio'>About</h3>
+          
           <div>
           <div className="shape"></div>
       <div className="photo-container">
@@ -68,9 +69,8 @@ function About() {
         <Col className="oneN" data-aos="zoom-in-left">
           <div>
             <p className="about-text">
-            I am highly adaptable and driven by learning. If there is a problem, I seek ways to fix it. Whether it takes reading a book or picking up a lesson in a framework I don't know, I've grown to embrace the challenges that development can bring.
-
-I am a highly self-motivated and goal-oriented professional committed to pursuing a long-term career in the tech industry. Coding has become my greatest passion, and I aspire to continuously develop and expand my skills while creating innovative projects. I thrive on the opportunity to challenge myself and improve my efficiency. With a proven track record of strong analytical and problem-solving abilities, I am dedicated to seeing projects through from inception to completion.
+            I'm focused on crafting solid, reusable, and beautiful user experiences with code while having fun.
+             Coding has become my greatest passion, and I aspire to develop and expand my skills while creating innovative projects continuously. I thrive on the opportunity to challenge myself and improve my efficiency. With a proven track record of strong analytical and problem-solving abilities, I am dedicated to seeing projects through from inception to completion.
             </p>
           </div>
         </Col>

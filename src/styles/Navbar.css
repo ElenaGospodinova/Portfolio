@@ -58,6 +58,7 @@
     margin-right: 0px;
     font-size: 1.6rem;
   }
+  
 }
 
 @media (max-width: 768px) {
@@ -78,9 +79,14 @@
   }
   
 }
-@media (max-width: 375px) {
+@media (max-width: 480px) {
   .navbar-toggler{
     margin-right: 11em;
+  }
+}
+@media (max-width: 375px) {
+  .navbar-toggler{
+    margin-right: 28em;
   }
   .nav-link {
     margin-right: 85px;
