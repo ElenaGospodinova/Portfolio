@@ -1,0 +1,23 @@
+
+.text-center{
+    padding: 13px;
+    margin-top: 40px;
+    /* background-color: #3e465f ; */
+    color: #d1ea29;
+}
+
+.logo{
+    width: 42px;
+    height: 43px;
+    margin-right: 12px;
+    border-radius: 12px;
+}
+
+@media (max-width: 576px) and (min-width: 374px) {
+    .text-center{
+        margin-right: 9em;
+    }
+    .p-4{
+        margin-right: 3em;
+    }
+}
