@@ -1,16 +1,11 @@
 import React from "react";
-
-
-//import { Routes, Route, Navigate} from "react-router-dom";
-//import NavBar from "./components/Navbar"
 import Nav from "./components/Nav"
-//import Footer from "./Footer"
 import Home from "./pages/Home";
 import './App.css';
 import Contact from "./pages/Contact";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
-//import Footer from './components/Footer'
+
 
 
 function App() {
