@@ -5,7 +5,7 @@ import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { HiOutlineMail } from 'react-icons/hi';
 import elly from '../img/elly.jpg';
 import '../styles/Navbar.css';
-import Elena_Gospodinova from '../img/E_Gospodinova_CV.docx'
+import Elena_Gospodinova from '../img/Elena_Gospodinova_CV.docx'
 import { Link, animateScroll as scroll } from "react-scroll";
 
 const NavBar = () => {
