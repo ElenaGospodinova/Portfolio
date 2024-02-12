@@ -11,7 +11,7 @@ import Energy_gym from '../img/Energy_gym.png';
 import EPAPE_ltd from '../img/EPAPE_ltd.png';
 import Travel_App from '../img/Travel_App.png';
 import LogIn_And_Out from '../img/LogIn_And_Out.png';
-import Blog from '../img/Travel_blog.png';
+import IMD from '../img/IMG_Building_Services.png';
 
 export default function Projects(props) {
   const [hoveredIndex, setHoveredIndex] = useState(null);
@@ -58,11 +58,11 @@ export default function Projects(props) {
       tools:[<FaHtml5/>, <FaCss3/>,<FaBootstrap/>, <FaJs/>],
     },
     {
-      title: 'Coming Soon - Travel Blog',
-      photo: Blog,
+      title: 'Comimg Soon - IMD - Building Services',
+      photo: IMD,
       githubLink: 'https://github.com/ElenaGospodinova/Let-s-Travel',
       websiteLink: 'https://your-travel-guide-asia.netlify.app//',
-      text:'South East Asia Travel Blog '
+      text:'IMD - Building Services - London`s top experts in Complete Bathroom Refurbishment, including Special Care Bathrooms.  '
       
     }
   ]
