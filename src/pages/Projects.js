@@ -60,8 +60,8 @@ export default function Projects(props) {
     {
       title: 'Comimg Soon - IMD - Building Services',
       photo: IMD,
-      githubLink: 'https://github.com/ElenaGospodinova/Let-s-Travel',
-      websiteLink: 'https://your-travel-guide-asia.netlify.app//',
+      githubLink: 'https://github.com/ElenaGospodinova/IMD-Building-Services',
+      websiteLink: 'https://app.netlify.com/sites/imd-building-services/overview',
       text:'IMD - Building Services - London`s top experts in Complete Bathroom Refurbishment, including Special Care Bathrooms.  '
       
     }

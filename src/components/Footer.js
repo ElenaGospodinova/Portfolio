@@ -38,7 +38,7 @@ export default function Footer() {
 
         <div>
         <section className='mb-4'>
-        {/* <MDBBtn
+        <MDBBtn
             floating
             className='m-1'
             style={{ backgroundColor: '#3b5998' }}
@@ -46,8 +46,8 @@ export default function Footer() {
             role='button'
           >
             <MDBIcon fab icon='facebook-f' className="icons"/>
-          </MDBBtn> */}
-{/* 
+          </MDBBtn>
+
           <MDBBtn
             floating
             className='m-1'
@@ -56,9 +56,9 @@ export default function Footer() {
             role='button'
           >
             <MDBIcon fab icon='twitter' className="icons" />
-          </MDBBtn> */}
+          </MDBBtn>
 
-          {/* <MDBBtn
+          <MDBBtn
             floating
             className='m-1'
             style={{ backgroundColor: '#333333' }}
@@ -75,9 +75,9 @@ export default function Footer() {
             role='button'
           >
             <MDBIcon fab icon='instagram' className="icons" />
-          </MDBBtn> */}
+          </MDBBtn>
 
-          {/* <MDBBtn
+          <MDBBtn
             floating
             className='m-1'
             style={{ backgroundColor: '#0082ca' }}
@@ -85,9 +85,9 @@ export default function Footer() {
             role='button'
           >
             <MDBIcon fab icon='linkedin-in' className="icons"/>
-          </MDBBtn> */}
+          </MDBBtn>
 
-          {/* <MDBBtn
+          <MDBBtn
             floating
             className='m-1'
             style={{ backgroundColor: '#333333' }}
@@ -95,7 +95,7 @@ export default function Footer() {
             role='button'
           >
             <MDBIcon fab icon='github' className="icons"/>
-          </MDBBtn> */}
+          </MDBBtn>
           </section>
         </div>
             </MDBCol>
