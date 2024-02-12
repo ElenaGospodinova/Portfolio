@@ -62,8 +62,8 @@ export default function Projects(props) {
       photo: IMD,
       githubLink: 'https://github.com/ElenaGospodinova/IMD-Building-Services',
       websiteLink: 'https://app.netlify.com/sites/imd-building-services/overview',
-      text:'IMD - Building Services - London`s top experts in Complete Bathroom Refurbishment, including Special Care Bathrooms.  '
-      
+      text:'IMD - Building Services - London`s top experts in Complete Bathroom Refurbishment, including Special Care Bathrooms.  ',
+      tools:[<FaHtml5/>, <FaCss3/>,<FaBootstrap/>, <FaJs/>],
     }
   ]
   return (
