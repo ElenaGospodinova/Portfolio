@@ -1,6 +1,6 @@
 import "../styles/Footer.css"
 import React from 'react';
-import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon, MDBBtn } from 'mdb-react-ui-kit';
+import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-kit';
 import elly from '../img/elly.jpg';
 
 export default function Footer() {
@@ -37,7 +37,7 @@ export default function Footer() {
 
 
         <div>
-        <section className='mb-4'>
+        {/* <section className='mb-4'>
         <MDBBtn
             floating
             className='m-1'
@@ -96,7 +96,7 @@ export default function Footer() {
           >
             <MDBIcon fab icon='github' className="icons"/>
           </MDBBtn>
-          </section>
+          </section> */}
         </div>
             </MDBCol>
           </MDBRow>
