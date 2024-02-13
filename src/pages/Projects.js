@@ -109,7 +109,7 @@ export default function Projects(props) {
       <button className='more'>
         <h3>See more on GitHub</h3>
         <a href='https://github.com/ElenaGospodinova'>
-          <FontAwesomeIcon icon={faGithub} size='2x' style={{ width: '170px' }} />
+          <FontAwesomeIcon icon={faGithub} size='2x' style={{ width: '160px' }} />
         </a>
       </button>
     </>

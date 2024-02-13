@@ -10,7 +10,8 @@
 
 .navbar-transparent {
   box-shadow: 16.6px 23.1px 13.1px rgba(42, 45, 33, 0.3);
-  margin-top: -22px !important;
+  margin-top: -20px !important;
+  padding: 1em;
   background-color: transparent !important;
   background-color: rgb(54, 58, 87) !important;
 }
