@@ -1,5 +1,5 @@
 .about {
-  margin-top: 20vw;
+  margin-top: 10vw;
   padding: 3em;
   width: 100%;
   box-shadow: 16.6px 23.1px 13.1px rgba(42, 45, 33, 0.3);
@@ -108,7 +108,7 @@
   }
   .about-text,
   .prg {
-    font-size: 1em;
+    font-size: 0.9em;
     margin-top: 2em;
   }
 
@@ -129,7 +129,7 @@
   .about {
     padding: 23px;
     width: 100%;
-    margin-top: 23em;
+    margin-top: 13em;
     margin-left: 2em;
   }
   .bio{
@@ -137,8 +137,8 @@
   }
   .about-text,
   .prg {
-    font-size: 1em;
-    margin-top: 2em;
+    font-size: 0.8em;
+    margin-top: 1em;
   }
   #photo{
     margin: -13em 1em;

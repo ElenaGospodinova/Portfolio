@@ -34,8 +34,8 @@ export default function Home() {
         </Button>
       </div>
       <div className='me' data-aos="fade-up" data-aos-duration="3000">
-  <p>I'm focused on crafting solid, reusable and beautiful user experiences with code while having fun.</p>
-</div>
+          <p>I'm focused on crafting solid, reusable and beautiful user experiences with code while having fun.</p>
+      </div>
       <div className="landing-end"></div>
       <div id="contact-section"></div>
       

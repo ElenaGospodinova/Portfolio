@@ -24,7 +24,7 @@ const NavBar = () => {
       expand='lg'
       className='navbar-transparent fixed-top'
       expanded={expanded}
-      style={{ marginTop: '20px' }}
+      style={{ height:'100px'}}
     >
       <div className='container'>
         <div
