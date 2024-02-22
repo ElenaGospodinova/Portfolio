@@ -1,14 +1,14 @@
 .projects{
     margin-top: 14em;
     margin-bottom: -6em;
-    padding: 50px;
+    padding: 40px;
     font-size: 2em;
 }
 .card {
     position: relative;
     overflow: hidden;
     margin-top: 220px;
-    margin-right: 3px;
+    margin-right: -4px;
     margin-left: 6px;
     background: url('../img/pngegg.png')no-repeat center; 
     box-shadow: 16.6px 23.1px 13.1px rgba(42, 45, 33, 0.3);
@@ -87,21 +87,38 @@
   }
   @media (max-width: 576px) and (min-width: 374px) {
     .projects{
-      margin: 22em -2em -1em -3em;
+      margin: 22em 6em -1em -3em;
       font-size: 1.2em;
     }
     .card{
       margin-top: 2em;
       width: 30em;
-      margin-left: 8em;
+      margin-left: 2em;
       width: 60%;
     }
     .card-text{
-      font-size: 0.7em;
+      font-size: 1em;
     }
     .more{
-      margin: 10em 6em -1em 9em;
-      width: 22em;
+      margin: 10em 20em 1em 9em;
+      width: 20em;
       font-size: 0.7em;
+    }
+    .btn.button-p{
+      border: none;
+      background: none;
+      padding: 22px;
+      
+    }
+  }
+  @media (max-width: 320px){
+    .projects{
+      margin-top:7em;
+    }
+    .btn.button-p{
+      border: none;
+      background: none;
+      padding: 22px;
+      
     }
   }
