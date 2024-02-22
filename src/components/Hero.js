@@ -1,4 +1,4 @@
-import Gospoinova from '../img/Elena_Gospodinova.png'
+import Gospoinova from '../img/Elena_Gospodinova_CV.pdf'
 import '../styles/Hero.css'
 
 export default function Hero() {

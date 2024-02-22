@@ -1,11 +1,10 @@
 import React, { useState } from 'react';
 import { Navbar } from 'react-bootstrap';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { HiOutlineMail } from 'react-icons/hi';
 import elly from '../img/elly.jpg';
 import '../styles/Navbar.css';
-import Elena_Gospodinova from '../img/Elena_Gospodinova_CV.docx'
+import Elena_Gospodinova from '../img/Elena_Gospodinova_CV.pdf'
 import { Link, animateScroll as scroll } from "react-scroll";
 
 const NavBar = () => {
@@ -37,7 +36,7 @@ const NavBar = () => {
           <img
             src={elly}
             alt='My Logo'
-            style={{ margin: '30px', width: '50px', height: '50px', borderRadius: '12px' }}
+            style={{ margin: '13px', width: '50px', height: '50px', borderRadius: '12px' }}
             className='logo'
           />
         </div>
@@ -45,10 +44,16 @@ const NavBar = () => {
           aria-controls='navbarNav'
           onClick={toggleNavbar}
           className={`navbar-toggler${expanded ? ' collapsed' : ''}`}
+          style={{margin:'30px'}}
         />
         <Navbar.Collapse id='navbarNav'>
           <ul
             className={`navbar-nav ml-auto${expanded ? ' show' : ''}`}
+            style={{ backgroundColor:'rgb(54, 58, 87)',
+                     marginTop:'-16px',
+                     padding:'9px',
+                     borderRadius:'2%',
+                      }}
             onClick={closeNavbar}
           >
             <li className='nav-item'>
@@ -124,8 +129,8 @@ const NavBar = () => {
                 href={Elena_Gospodinova}
                 className='nav-link resume'
                 download
-              >
-                <BsFillPersonLinesFill />
+              >   <span>CV</span>
+                {/* <BsFillPersonLinesFill /> */}
               </a>
             </li>
           </ul>
