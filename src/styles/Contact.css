@@ -1,86 +1,92 @@
-.mb-3{
-  margin-top: 10px;
-  padding: 80px;
+.mb-3 {
+  margin-top: 1.5rem;
+  padding: 5%;
   font-size: 2em;
-  
 }
 
 .send {
-    height: 3em;
-    width: 10em;
-    margin-bottom: 60px;
-    border-radius: 1rem;
-    font-size: 1rem;
-    background-color: rgb(54, 58, 87);
-    color: white;
-    border: 3px solid #cef850;
-    cursor: pointer;
-    font-weight: bolder;
-    font-family: 'Source Code Pro', monospace;
+  height: 3.5em;
+  width: 50%;
+  margin-bottom: 4em;
+  border-radius: 1rem;
+  font-size: 1rem;
+  background-color: rgb(54, 58, 87);
+  color: white;
+  border: 3px solid #cef850;
+  cursor: pointer;
+  font-weight: bolder;
+  font-family: 'Source Code Pro', monospace;
+}
+
+.send:hover {
+  color: rgb(195, 223, 165);
+  border: 3px solid #cef850;
+  background-color: rgb(54, 58, 87);
+  transform: scale(1.1);
+}
+
+.contact {
+  display: grid;
+  font-size: 1rem;
+  place-items: center;
+  padding: 1em;
+  margin: 10% auto;
+  width: 50%;
+  height: 60vh;
+  background: url('../img/pngegg.png') no-repeat center;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+  .send {
+    width: 60%;
   }
-  
-  .send:hover {
-    color: rgb(195, 223, 165);
-    border: 3px solid #cef850;;
-    background-color: rgb(54, 58, 87);
-    transform: scale(1.2);
-  }
-  
-  .contact {
-    display: grid;
-    font-size: 1rem;
-    place-items: center;
-    padding: 1em;
-    margin-top: 100px;
-    width: 40em;
-    height: 60vh;
-    background: url('../img/pngegg.png')no-repeat center; 
-    border-radius: 12px;
-    box-shadow: 16.6px 23.1px 13.1px rgba(42, 45, 33, 0.3);
-  
-  }
-  
-  /* Responsive adjustments */
+}
+
 @media (max-width: 768px) {
-  .send {
-    height: 7vw;
-    width: 18vw;
-    font-size: 1rem;
+  .mb-3 {
+    padding: 10%;
   }
-  .contact{
-    margin-bottom: 230px;
-       
-  }
-  
-}
-
-
-@media (max-width: 576px) and (min-width: 374px) {
-  
   .send {
-    height: 10vw;
-    width: 20vw;
-    font-size: 1rem;
-    
+    width: 50%;
+    margin-bottom: 3em;
   }
   .contact {
-    font-size: 1em;
-    width: 86%;
-    height: 88%;
-    margin: 100px 33px;
+    margin-left:4em;
+    margin-top: 15%;
+    width: 64%;
+    height: 66%;
   }
 }
-@media (max-width: 320px){
+
+@media (max-width: 576px) {
+  .mb-3 {
+    font-size: 1.5em;
+  }
   .send {
-    height: 12vw;
-    width: 26vw;
-    font-size: 1rem;
-    
+    width: 60%;
+    margin-bottom: 2em;
   }
   .contact {
-    font-size: 1em;
+    margin-top: 20%;
+    width: 97%;
+    height: 90%;
+    margin-left: 1em;
+  }
+}
+
+@media (max-width: 320px) {
+  .mb-3 {
+    font-size: 1.2em;
+  }
+  .send {
     width: 95%;
-    height: 88%;
-    margin: 100px 23px;
-  } 
+    margin-bottom: 1.5em;
+  }
+  .contact {
+    margin-top: 25%;
+    width: 95%;
+  }
 }

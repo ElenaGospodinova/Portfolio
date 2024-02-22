@@ -85,6 +85,15 @@
   .more:hover{
     transform: scale(1.1);
   }
+
+  @media (max-width: 768px){
+  .btn.button-p{
+    border: none;
+    background: none;
+    padding: 22px;
+    
+  }
+  }
   @media (max-width: 576px) and (min-width: 374px) {
     .projects{
       margin: 22em 6em -1em -3em;

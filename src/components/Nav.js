@@ -44,7 +44,7 @@ const NavBar = () => {
           aria-controls='navbarNav'
           onClick={toggleNavbar}
           className={`navbar-toggler${expanded ? ' collapsed' : ''}`}
-          style={{margin:'30px'}}
+          
         />
         <Navbar.Collapse id='navbarNav'>
           <ul
@@ -53,6 +53,7 @@ const NavBar = () => {
                      marginTop:'-16px',
                      padding:'9px',
                      borderRadius:'2%',
+                     
                       }}
             onClick={closeNavbar}
           >
