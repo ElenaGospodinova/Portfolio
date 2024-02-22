@@ -120,10 +120,32 @@
       
     }
   }
+  @media (max-width:480px) {
+    .projects{
+      margin: 11em 1em 0 2em;
+      
+    }
+    .card{
+      margin-top: 2em;
+      margin-left: 5em;
+      width: 60%;
+    }
+    
+  }
+  @media (max-width:360px) {
+    .projects{
+      font-size: 1.2em;
+    }
+    .card{
+      width: 90%;
+      margin-left: 2em;
+    }
+  }
   @media (max-width: 320px){
     .projects{
       margin-top:7em;
     }
+    
     .btn.button-p{
       border: none;
       background: none;

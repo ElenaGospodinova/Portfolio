@@ -281,3 +281,8 @@ a:hover {
     margin-right: -2em;
   }
 }
+@media (max-width:360px) {
+  .me{
+    margin-left: 1em;
+  }
+}
