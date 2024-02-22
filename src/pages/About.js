@@ -14,10 +14,10 @@ function About() {
 
   const skillsData = [
     { icon: <FaHtml5 />, name: 'HTML5' },
-    { icon: <FaJs />, name: 'JavaScript' },
-    { icon: <FaReact />, name: 'React' },
     { icon: <FaCss3 />, name: 'CSS3' },
     { icon: <FaSass />, name: 'SASS' },
+    { icon: <FaJs />, name: 'JavaScript' },
+    { icon: <FaReact />, name: 'React' }, { icon: <FaReact />, name: 'React' },
     {icon:<FaBootstrap/>, name:'Bootsrap'},
     { icon: <FaPython />, name: 'Python' },
     { icon: <FaDatabase />, name: 'MySql' },
@@ -44,7 +44,7 @@ function About() {
       <div className="photo-container">
         <Image src={Elena_Gospodinova} alt="Elena Gospodinova" id="photo" fluid />
       </div> 
-            <h2 style={{ letterSpacing: '12px', marginTop: '120px' }}>Skills</h2>
+            <h2 style={{ letterSpacing: '3px', marginTop: '114px', marginLeft:'152px' }}>Skills</h2>
             <hr />
           </div>
           {showMore
@@ -69,8 +69,10 @@ function About() {
         <Col className="oneN" data-aos="zoom-in-left">
           <div>
             <p className="about-text">
-            I'm focused on crafting solid, reusable, and beautiful user experiences with code while having fun.
-             Coding has become my greatest passion, and I aspire to develop and expand my skills while creating innovative projects continuously. I thrive on the opportunity to challenge myself and improve my efficiency. With a proven track record of strong analytical and problem-solving abilities, I am dedicated to seeing projects through from inception to completion.
+            Highly innovative and results-driven Front-End Developer with a strong dedication to excellence. 
+            Exceptional communication and team management abilities. 
+            Passionate about development and innovation, 
+            specializing in crafting solid, reusable, and visually captivating user experiences with code. 
             </p>
           </div>
         </Col>

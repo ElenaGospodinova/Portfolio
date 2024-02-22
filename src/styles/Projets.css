@@ -1,7 +1,8 @@
 .projects{
     margin-top: 14em;
-    padding: 100px;
-    font-size: 2.8em;
+    margin-bottom: -6em;
+    padding: 50px;
+    font-size: 2em;
 }
 .card {
     position: relative;
@@ -51,8 +52,8 @@
   }
   
   .btn.button-p {
-    width: 9vw;
-    padding: 10px;
+    width: 6vw;
+    padding: 8px;
     margin: 3px;
     border-radius: 50px;
     background-color: rgb(54, 58, 87);
@@ -60,7 +61,7 @@
     border: 2px solid #cef850;
     display: inline-flex;
     justify-content: center;
-    
+
     align-items: center;
     transition: transform 0.3s, opacity 0.3s ease-in-out; 
   }
@@ -72,33 +73,35 @@
     /* background-color: #cef850 */
   }
   .more{
-    margin-top: 200px;
-    background-color: #cef850;
-    color: rgb(54, 14, 155);
+    font-size: 0.6em;
+    margin-top: 160px;
     border-radius: 12px;
     box-shadow: 16.6px 23.1px 13.1px rgba(42, 45, 33, 0.3);
-    border: none;
     background-color: rgb(54, 58, 87);
-    color: white;
+    color: white !important;
     border: 3px solid #cef850;
     padding: 1em;
   }
   .more:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
   }
   @media (max-width: 576px) and (min-width: 374px) {
     .projects{
-      margin: 14em 2em -1em -3em;
-      font-size: 1.5em;
+      margin: 22em -2em -1em -3em;
+      font-size: 1.2em;
     }
     .card{
       margin-top: 2em;
       width: 30em;
-      margin-left: 2em;
+      margin-left: 8em;
       width: 60%;
     }
+    .card-text{
+      font-size: 0.7em;
+    }
     .more{
-      margin-right: 9em;
-      width: 17em;
+      margin: 10em 6em -1em 9em;
+      width: 22em;
+      font-size: 0.7em;
     }
   }

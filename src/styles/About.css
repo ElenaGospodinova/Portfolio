@@ -10,7 +10,7 @@
 .bio {
   align-items: center;
   justify-content: center;
-  margin-left: 6em;
+  margin-left: 6.6em;
   font-size: 3em;
 }
 #photo{
@@ -29,13 +29,13 @@
 .shape {
    
   float: right;
-  margin-top: -13vw;
+  margin-top: -11vw;
   margin-right: 11vw;
   display: flex;
   z-index: 1;
   opacity: 0.8;
   width: 20vw;
-  height: 22vw;
+  height: 16vw;
   transform: skewY(20deg);
   background: url('../img/pngegg.png')no-repeat center; 
   border-radius: 12px;
@@ -45,12 +45,12 @@
 }
 
 .about-text {
-  font-size: 1.5em;
-  margin-top: 17vw;
+  font-size: 1em;
+  margin-top: 19vw;
 }
 
 .prg {
-  font-size: 2.8rem;
+  font-size: 1rem;
 }
 
 .name {
@@ -67,19 +67,19 @@
   color: rgb(202, 238, 164);
   margin-top: 1.9em;
   padding-bottom: 2em;
-  font-size: 1.5em;
+  font-size: 1.3em;
 }
 @media (max-width: 1200px) {
   .about {
     padding: 23px;
     width: 100%;
-    margin-top: 23em;
+    margin-top: 10em;
     margin-left: 4em;
   }
 
   .about-text {
-    font-size: 1.8em;
-    margin-top: 10em;
+    font-size: 1.3em;
+    margin-top: 20em;
   }
 
   .prg {
@@ -101,15 +101,16 @@
     width: 23em;
     margin-top: 15em;
     margin-left: 6em;
+    width: 100%;
   }
   .bio{
     margin-left: 1em;
     padding: 1em;
   }
-  .about-text,
-  .prg {
-    font-size: 0.9em;
-    margin-top: 2em;
+  .about-text {
+    font-size: 1em;
+    margin-top: 25em;
+    margin-right:4em;
   }
 
   .prg {
@@ -129,7 +130,7 @@
   .about {
     padding: 23px;
     width: 100%;
-    margin-top: 13em;
+    margin-top: 8em;
     margin-left: 2em;
   }
   .bio{
@@ -138,7 +139,8 @@
   .about-text,
   .prg {
     font-size: 0.8em;
-    margin-top: 1em;
+    margin-top: 1em; 
+    
   }
   #photo{
     margin: -13em 1em;
@@ -165,23 +167,26 @@
 @media (max-width: 576px) and (min-width: 374px) {
   .about {
     padding: 23px;
-    width: 70%;
-    margin-top: 22em;
-    margin-left: 0.2em;
+    width: 80%;
+    margin-top: 14em;
+    margin-left: 5em;
   }
   .bio{
     float: left;
-    margin: -7em 8em;
-    font-size: 1em;
+    margin: -5em 4em;
+    font-size: 2em;
   }
-  .about-text,
+  
   .prg {
     font-size: 1em;
     margin-top: 3em;
   }
+  .about-text{
+    width: 100%;
+  }
   #photo{
-    margin: -9em 4em;
-    width: 7em;
+    margin: -8em 4em;
+    width: 6em;
   }
   .shape{
     margin: -10em 5em;
@@ -193,10 +198,11 @@
   }
 
   .info {
-    margin: 4em -4em 0.3em;
+    margin: 4em -6em 0.3em;
   }
 
   .skills {
     font-size: 1em;
+    
   }
 }

@@ -61,7 +61,7 @@ export default function Projects(props) {
       title: 'Comimg Soon - IMD - Building Services',
       photo: IMD,
       githubLink: 'https://github.com/ElenaGospodinova/IMD-Building-Services',
-      websiteLink: 'https://app.netlify.com/sites/imd-building-services/overview',
+      websiteLink: 'https://imd-building-services.netlify.app/',
       text:'IMD - Building Services - London`s top experts in Complete Bathroom Refurbishment, including Special Care Bathrooms.  ',
       tools:[<FaHtml5/>, <FaCss3/>,<FaBootstrap/>, <FaJs/>],
     }
@@ -109,7 +109,7 @@ export default function Projects(props) {
       <button className='more'>
         <h3>See more on GitHub</h3>
         <a href='https://github.com/ElenaGospodinova'>
-          <FontAwesomeIcon icon={faGithub} size='2x' style={{ width: '160px' }} />
+          <FontAwesomeIcon icon={faGithub} size='2x' style={{ width: '120px' }} />
         </a>
       </button>
     </>
