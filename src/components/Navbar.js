@@ -124,7 +124,7 @@ const NavBar = () => {
                 className='nav-link'
                 download
               >
-                <BsFillPersonLinesFill />
+                {/* <BsFillPersonLinesFill /> */}
               </a>
             </li>
           </ul>

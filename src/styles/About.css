@@ -100,8 +100,8 @@
     padding: 33px;
     width: 23em;
     margin-top: 15em;
-    margin-left: 6em;
-    width: 100%;
+    margin-left: 1em;
+    width: 76%;
   }
   .bio{
     margin-left: 1em;
@@ -167,9 +167,9 @@
 @media (max-width: 576px) and (min-width: 374px) {
   .about {
     padding: 23px;
-    width: 80%;
+    width: 83%;
     margin-top: 14em;
-    margin-left: 5em;
+    margin-left: 3em;
   }
   .bio{
     float: left;
@@ -183,6 +183,7 @@
   }
   .about-text{
     width: 100%;
+    font-size: 1em;
   }
   #photo{
     margin: -8em 4em;
@@ -203,6 +204,51 @@
 
   .skills {
     font-size: 1em;
+    
+  }
+}
+@media (max-width: 320px){
+  .about {
+    padding: 23px;
+    width: 90%;
+    margin-top: 14em;
+    margin-left: 1em;
+  }
+  .bio{
+    float: left;
+    margin: -4em -1em;
+    font-size: 2em;
+  }
+  
+  .prg {
+    font-size: 1em;
+    margin-top: 3em;
+  }
+  .about-text{
+    width: 100%;
+    font-size: 1em;
+  }
+  #photo{
+    margin: -8em 4em;
+    width: 6em;
+  }
+  .shape{
+    margin: -10em 5em;
+    width: 10em;
+    height: 12em;
+  }
+  .prg {
+    font-size: 1em;
+  }
+
+  .info {
+    margin: 4em -6em 0.3em;
+  }
+
+  .skills {
+    font-size: 1em;
+  }
+  .skill{
     
   }
 }

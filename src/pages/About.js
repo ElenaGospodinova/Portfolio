@@ -44,7 +44,7 @@ function About() {
       <div className="photo-container">
         <Image src={Elena_Gospodinova} alt="Elena Gospodinova" id="photo" fluid />
       </div> 
-            <h2 style={{ letterSpacing: '3px', marginTop: '114px', marginLeft:'152px' }}>Skills</h2>
+            <h2 className='skill' style={{ letterSpacing: '3px', marginTop: '114px', marginLeft:'152px' }}>Skills</h2>
             <hr />
           </div>
           {showMore
