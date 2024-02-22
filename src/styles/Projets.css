@@ -122,12 +122,12 @@
   }
   @media (max-width:480px) {
     .projects{
-      margin: 11em 1em 0 2em;
+      margin: 11em 7em 1em 2em;
       
     }
     .card{
       margin-top: 2em;
-      margin-left: 5em;
+      margin-left: 3em;
       width: 60%;
     }
     

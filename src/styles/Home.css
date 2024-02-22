@@ -268,9 +268,9 @@ a:hover {
     }
   }
   .me {
-    width: 93%;
+    width: 73%;
     font-size: 0.8em;
-    margin-left: 2em;
+    margin-left: 1em;
     margin-top: -5em;
   }
   .button {
@@ -278,7 +278,7 @@ a:hover {
     width:30vw;
     font-size: 0.8em;
     margin-top: -6em;
-    margin-right: -2em;
+    margin-right: 6em;
   }
 }
 @media (max-width:360px) {

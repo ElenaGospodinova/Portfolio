@@ -95,7 +95,7 @@
 
 @media (max-width: 480px){
   .navbar-toggler{
-    margin-right: 1em;
+    margin-right: 8em;
   }
 }
 @media (max-width: 375px) {
