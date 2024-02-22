@@ -46,7 +46,7 @@
 
 .about-text {
   font-size: 1em;
-  margin-top: 19vw;
+  margin-top: 26vw;
 }
 
 .prg {
@@ -130,20 +130,19 @@
   .about {
     padding: 23px;
     width: 100%;
-    margin-top: 8em;
+    margin-top: -8em;
     margin-left: 2em;
   }
   .bio{
-    margin: 1em 5em;
+    margin: 5em 1em;
   }
-  .about-text,
-  .prg {
-    font-size: 0.8em;
-    margin-top: 1em; 
+  .about-text{
+    font-size: 1em;
+    margin-top: 45em; 
     
   }
   #photo{
-    margin: -13em 1em;
+    margin: -11em 2em;
     width: 7em;
   }
   .shape{
@@ -167,13 +166,13 @@
 @media (max-width: 576px) and (min-width: 374px) {
   .about {
     padding: 23px;
-    width: 83%;
+    width: 80%;
     margin-top: 14em;
-    margin-left: 3em;
+    margin-left: 2em;
   }
   .bio{
     float: left;
-    margin: -5em 4em;
+    margin: -4em 4em;
     font-size: 2em;
   }
   
@@ -184,6 +183,7 @@
   .about-text{
     width: 100%;
     font-size: 1em;
+    margin-top: 1em;
   }
   #photo{
     margin: -8em 4em;
@@ -207,48 +207,34 @@
     
   }
 }
-@media (max-width: 320px){
+@media screen and (max-width: 320px) {
   .about {
-    padding: 23px;
-    width: 90%;
-    margin-top: 14em;
-    margin-left: 1em;
+    margin-top: 5vw;
+    padding: 1.5em;
+    box-shadow: 8.3px 11.55px 6.55px rgba(42, 45, 33, 0.3);
+    border-radius: 8px;
   }
-  .bio{
-    float: left;
-    margin: -4em -1em;
-    font-size: 2em;
+
+  .bio {
+    margin-left: 1.3em;
+    font-size: 1.5em;
   }
-  
-  .prg {
-    font-size: 1em;
-    margin-top: 3em;
+
+  #photo {
+    width: 20vw;
+    margin-right: 30vw;
+    margin-top: -16vw;
+  }
+
+  .shape {
+    margin-top: -22vw;
+    margin-right: 22vw;
+    width: 40vw;
+    height: 32vw;
   }
   .about-text{
     width: 100%;
     font-size: 1em;
-  }
-  #photo{
-    margin: -8em 4em;
-    width: 6em;
-  }
-  .shape{
-    margin: -10em 5em;
-    width: 10em;
-    height: 12em;
-  }
-  .prg {
-    font-size: 1em;
-  }
-
-  .info {
-    margin: 4em -6em 0.3em;
-  }
-
-  .skills {
-    font-size: 1em;
-  }
-  .skill{
-    
+    margin-top: 1em;
   }
 }

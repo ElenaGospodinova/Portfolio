@@ -12,11 +12,21 @@
     margin-right: 12px;
     border-radius: 12px;
 }
+@media (max-width: 768px){
+    .text-center{
+        width: 87%;
+        margin-left: -0.5em;
+    }
+    .p-4{
+        margin-right: 2em;
+       
+    }
+}
 
 @media (max-width: 576px) and (min-width: 374px) {
     .text-center{
-        
-        margin-right: 3em;
+        width: 87%;
+        margin-left: -0.5em;
     }
     .p-4{
         margin-right: 2em;
