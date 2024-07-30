@@ -12,7 +12,7 @@ export default function Contact() {
     setFormStatus('Submitting...');
 
     emailjs
-      .sendForm('service_sxlo62s', 'template_jx6omqo', form.current, 'nsmmmLC576s9Z3HrA')
+      .sendForm('service_sxlo62s', 'template_jx6omqo', form.current, 'HlTo7Q8UCxcw7S6Q6')
       .then((result) => {
         console.log(result.text);
         console.log('message send');
