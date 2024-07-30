@@ -28,9 +28,9 @@ export default function Footer() {
                 London, UK
               </p>
               <p>
-                <MDBIcon icon="envelope" className="me-3" />
-                gospodinovaelena@yahoo.co.uk
-              </p>
+                <MDBIcon icon="envelope" className="me-3" 
+                href='mailto:gospodinovaelena@yahoo.co.uk'/>
+              gospodinovaelena@yahoo.co.uk</p>
               <p>
                 <MDBIcon icon="phone" className="me-3" /> + 44 (0) 780 0051 4496
               </p>
