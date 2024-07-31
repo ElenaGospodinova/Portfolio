@@ -10,7 +10,7 @@ export default function Contact() {
   const sendEmail = (e) => {
     e.preventDefault();
     setFormStatus('Submitting...');
-
+//new 
     emailjs
       .sendForm('service_sxlo62s', 'template_jx6omqo', form.current, 'HlTo7Q8UCxcw7S6Q6')
       .then((result) => {
